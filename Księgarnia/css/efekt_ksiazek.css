@@ -1,0 +1,55 @@
+.link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border: 1em solid #fff;
+    border-radius: 10%;
+    background: rgba(255, 130, 0, 0.4);
+    max-width: 100%;
+}
+
+.link img {
+    display: block;
+    transition: all .6s ease-in-out;
+    width: 100%;
+}
+
+.link:before, .link:after {
+    content: '';
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    transition: all .6s ease-in-out;
+    width: 100%;
+}
+.link.slide-fade:before {
+    top: 0;
+    left: 0;
+}
+.modal-content {
+  padding-right: 3%;
+}
+.link.slide-fade:hover:before {
+    background: rgba(228, 138, 33, 0.8);
+}
+
+.link.slide-fade:after {
+    content: "Więcej";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 2em;
+    top: 50%;
+    left: 50%;
+    width: 4em;
+    height: 2em;
+    margin: -1em 0 0 -2em;
+    line-height: 2em;
+}
+
+.link.slide-fade.left:after {
+    left: -50%;
+}
+.link.slide-fade:hover:after {
+    left: 50%;
+    top: 50%;
+}

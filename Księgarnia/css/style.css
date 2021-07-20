@@ -1,0 +1,138 @@
+html, body {
+    font-family: FontAwesome;
+}
+#brand{
+  color: rgb(255, 137, 0);
+}
+#nav1{
+  overflow: hidden;
+}
+#menutop{
+  text-align: center;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 100;
+  width: 100%;
+}
+.nav-link{
+  font-size: 175%;
+}
+.navbar-brand {
+  font-size: 170%;
+}
+.books{
+  text-align: center;
+}
+figcaption{
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.books img{
+  width: 100%;
+  padding: 4%;
+}
+.info {
+  margin-top: 2.5%;
+  text-align: left;
+  font-size: 140%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about {
+  text-align: left;
+  color: rgb(255, 137, 0);
+}
+label {
+	font-size: 120%;
+}
+.error{
+  color: red;
+}
+.brawo{
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 120%;
+  color: rgb(255, 137, 0);
+}
+#formularze span{
+	text-decoration: underline;
+}
+
+#logout{
+	color:rgba(255,255,255,.5);
+	text-decoration: none;
+	margin-left: 0.5em;
+	font-size: 70%;
+}
+#user {
+	padding-top: 8px;
+	text-align: right;
+	width: 50%;
+	font-size: 200%;
+	color: rgb(255, 137, 0);
+}
+#logowanie {
+  padding-top: 8%;
+  height: 350px;
+}
+#log{
+  color: black;
+  font-weight: bold;
+}
+#log:hover{
+  color: rgba(255, 137, 0);
+}
+.about2 {
+  color: black;
+}
+#formularze{
+  margin: 6% 0;
+}
+.custom-control-input:checked~.custom-control-label::before {
+		border-color: rgba(255, 137, 0) !important;
+		background-color: rgba(255, 137, 0) !important;
+		box-shadow: 0 0 0 0.2rem rgba(255, 137, 0,.5) !important;
+}
+.custom-control-input::focus{
+	background-color: rgba(255, 137, 0) !important;
+}
+.form-control:focus {
+	box-shadow: 0 0 0 0.2rem rgba(255, 137, 0,.5) !important;
+		border-color: rgba(255, 137, 0) !important;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 137, 0,.5) !important;
+}
+.button{
+	border-color: rgba(255, 137, 0) !important;
+	background-color: rgba(255, 137, 0) !important;
+}
+#logowanie{
+	margin-bottom: 11%;
+}
+#stopka {
+  margin-bottom: 0 !important;
+  width: 100%;
+}
+#copy {
+  font-weight: bold;
+  font-size: 140%;
+}
+#zegar{
+  text-align: center;
+}
+.iks {
+  font-size: 300%;
+}
+#zegarek {
+  border: none;
+  background-color: #e9ecef;
+  font-size: 170%;
+}
